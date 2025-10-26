@@ -55,8 +55,8 @@ class CarWashStation:
         self.average_rating = round(self.average_rating, 1)
 
 
-bmw = Car(comfort_class=3, clean_mark=3, brand='BMW')
-audi = Car(comfort_class=4, clean_mark=9, brand='Audi')
+bmw = Car(comfort_class=3, clean_mark=3, brand="BMW")
+audi = Car(comfort_class=4, clean_mark=9, brand="Audi")
 
 print(bmw.clean_mark)  # 3
 
